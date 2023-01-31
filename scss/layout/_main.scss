@@ -1,0 +1,79 @@
+
+.main-superior{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+    div{ display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{color:aliceblue;
+        width: 70%;
+        justify-content: center;
+        text-align: center;}
+        }
+    div{    
+    img{display: none;}
+    }
+}
+    
+        h3{
+            color:white;
+            margin: 15px;
+            font-size: 25px;
+        }
+div{
+    justify-content: center; 
+    iframe {
+    width: 300px;
+   
+}
+    img {
+
+        width: 300px;
+    }
+
+    ul{ display: grid;
+        grid-template-areas: 
+        "pc1"
+        "pc2"
+        "pc3"
+        "pc4";
+     
+        
+        margin: auto;
+        justify-items: center;
+        align-content: center;
+        place-content: center;
+        margin: 15px;
+        li:hover{
+            transform: scale(1.1);
+            transition: 400ms;}
+        li{ text-align: center;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            list-style-type: none;
+            margin: 20px;
+                .precio-viejo{
+                    text-decoration:line-through;
+                    font-family: 'Times New Roman', Times, serif;
+                }
+            a{  text-align: center;
+                color: white;
+                text-decoration: none;
+            }
+            p{color:blue;}
+
+        img{ width: 200px;
+            }
+        }
+        .pc1{grid-area: pc1}
+        .pc2{grid-area: pc2}
+        .pc3{grid-area: pc3}
+        .pc4{grid-area: pc4}
+    }
+}    
+.medios-de-pago{display: none;}
+.mapa{width: 30%;
+margin: 20px;}
